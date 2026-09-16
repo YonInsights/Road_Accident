@@ -1,25 +1,57 @@
-# Road Accident Analysis Dashboard
+# 🚦 Road Accident Analytics & Safety Dashboard
 
-![Road Accident Dashboard](https://github.com/YonInsights/Car_Accident-analysis/blob/main/Accident%20analysis.png)
+![Road Accident Dashboard](Accident%20analysis.png)
 
-## Project Description
-In this project, I designed and developed an **interactive Excel dashboard** to analyze road accident data for **2021 and 2022**. The dashboard visualizes key performance indicators (KPIs) such as total casualties, accident severity, vehicle type involvement, and more, using dynamic filters and slicers to explore insights at different granularities.
+An analytical business intelligence project evaluating road safety, accident severity patterns, and casualty metrics across **307,000+ accident records**. 
 
-## Project Process
-- **Data Collection**: Sourced from Kaggle; **307k rows** of road accident data.
-- **Data Cleaning**: Adjusted column widths, added filters, checked for blanks, duplicates, and typos.
-- **Data Processing**: Created custom columns and applied Excel formulas for further analysis.
-- **Data Analysis**: Built pivot tables, aggregated data, and developed charts for analysis.
-- **Data Visualization**: Designed custom charts, formatted visualizations, and arranged the final dashboard layout.
-- **Dynamic Dashboard**: Integrated filters for date, accident location (rural/urban), and accident type.
+---
 
-## Tools Used
-- **Excel**: Data cleaning, processing, pivot tables, slicers, and dashboard creation.
+## 📊 Project Overview
 
-## Dashboard Link
-You can access the interactive dashboard [here](https://1drv.ms/x/c/9227fe9ead915f47/ESCQmBHW9IBHvWOBu1le8yUBQ5hP8_9kxJzFXAwe3mTv8A?e=F9D0GJ).
+This dashboard evaluates key transportation safety metrics to uncover critical risk factors associated with road casualties, including:
+* **Casualty Severity Breakdown:** Fatal, Serious, and Slight casualties.
+* **Vehicle Type Involvement:** Cars, motorcycles, light goods vehicles (LGVs), buses, and agricultural vehicles.
+* **Environmental & Infrastructure Factors:** Urban vs. Rural roadway classification, daylight vs. dark conditions, and wet vs. dry pavement surfaces.
+* **Time Trends:** Year-over-year casualty variance (2021 vs. 2022).
 
-## Getting Started
-- Clone the repository:  
-   ```bash
-   git clone https://github.com/YonInsights/Road_Accident.git
+---
+
+## 🛠️ Technical Process
+
+1. **Data Ingestion & Integrity:** Sourced 307,000+ collision records, verified column structures, resolved missing data points, and standardized categorical variables.
+2. **Feature Engineering & Calculations:** Computed custom fields for severity percentages, day-of-week groupings, and vehicle type casualty contributions using Excel formulas and DAX.
+3. **Data Aggregation:** Constructed relational pivot models to allow dynamic slicing by road type, lighting conditions, and geographic location.
+4. **Interactive Dashboard Design:** Designed a high-impact BI layout equipped with dynamic timeline slicers, KPI progress cards, and multi-dimensional filters.
+
+---
+
+## 💻 Tools Used
+
+* **Microsoft Excel / Power BI:** Data processing, pivot modeling, KPI cards, dynamic slicers, and interactive visualization.
+* **Dataset Scale:** 307k+ collision records.
+
+---
+
+## 🔗 Live Interactive Dashboard
+
+Explore the interactive cloud workbook:
+👉 [Access Live Excel Workbook](https://1drv.ms/x/c/9227fe9ead915f47/ESCQmBHW9IBHvWOBu1le8yUBQ5hP8_9kxJzFXAwe3mTv8A?e=F9D0GJ)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/YonInsights/Road_Accident.git
+cd Road_Accident
+```
+
+---
+
+## 👨‍💻 Author
+
+**Yonatan Abrham**  
+*Highway Design Engineer & Data Scientist*  
+* Founder & Developer of [Infradigital CAD](https://www.infradigitalcad.com/)
+* LinkedIn: [linkedin.com/in/yonatan-abrham1](https://www.linkedin.com/in/yonatan-abrham1/)
+* Email: [email2yonatan@gmail.com](mailto:email2yonatan@gmail.com)
